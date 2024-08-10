@@ -1,6 +1,5 @@
-function calculateSum(a, b) {
+export function calculateSum(a, b) {
   const sum = a + b;
   return sum;
 }
-const x = "Sum Module";
-module.exports = { calculateSum, x };
+export const x = "Sum Module";
